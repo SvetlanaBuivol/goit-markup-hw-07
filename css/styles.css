@@ -181,6 +181,37 @@ body {
   padding-bottom: 24px;
 }
 
+/* Header menu */
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button-menu {
+    display: inline-block;
+    margin-left: auto;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.icon-menu {
+    stroke: var(--heading-text-color);
+}
+
+.button-menu .icon-cross {
+    display: none;
+}
+
+.button-menu.is-open .icon-cross {
+    display: block;
+}
+
+.button-menu.is-open .icon-menu {
+    display: none;
+}
+
 /* ==================== */
 /* |       HERO       | */
 /* ==================== */
