@@ -353,7 +353,7 @@ ul {
 }
 
 .customer-list {
-    display: flex;
+    display: flex;   
     gap: 24px;
 }
 
