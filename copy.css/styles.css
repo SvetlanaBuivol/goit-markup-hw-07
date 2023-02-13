@@ -353,8 +353,9 @@ ul {
 }
 
 .customer-list {
-    display: flex;   
-    gap: 24px;
+    display: flex;
+    
+    gap: 72px 16px;
 }
 
 .customer-icon {
