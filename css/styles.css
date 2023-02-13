@@ -822,6 +822,9 @@ body {
     margin-bottom: 72px;
     width: 264px;
   }
+  .footer-form {
+    text-align: center;
+  }
 }
 
 .footer-logo {
@@ -900,5 +903,42 @@ body {
 .footer-link:hover,
 .footer-link:focus {
   background-color: var(--green-cl);
+}
+
+.footer-input {
+  width: 398px;
+  height: 40px;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+
+  color: var(--footer-text);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: var(--heading-text-color);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+
+.footer-btn {
+  margin-right: auto;
+  margin-left: auto;
+  border: none;
+  display: flex;
+  padding: 8px 24px;
+  min-width: 168px;
+  height: 40px;
+  align-items: center;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-btn:hover,
+.footer-btn:focus {
+  background: var(--button-backgrnd-color-accent)
+}
+
+.footer-airplane {
+  width: 24px;
+  height: 24px;
+  margin-left: 16px;
 }
 
