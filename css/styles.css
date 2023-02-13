@@ -804,3 +804,9 @@ body {
     width: 168px;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .customer-list {
+    flex-wrap: nowrap;
+  }
+}
