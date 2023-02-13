@@ -966,7 +966,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-container {
     gap: 72px 24px;
     padding-left: 108px;
