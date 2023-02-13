@@ -273,7 +273,6 @@ ul {
     margin-bottom: 8px;
 }
 
-.feature-icon {}
 
 /* what are  we doing */
 .examples {
@@ -791,8 +790,6 @@ textarea {
     line-height: 14px;
     color: var(--customer-bg-cl);
 }
-
-.form input[type="checkbox"] {}
 
 .checkbox {
     appearance: none;
