@@ -1039,7 +1039,7 @@ body {
   height: 24px;
 
   margin-left: auto;
-  margin-bottom: auto;
+  margin-bottom: 16px;
 
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
